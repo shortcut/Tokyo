@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC4D4C362A87C2C200607DCD /* ShadowModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D4C352A87C2C200607DCD /* ShadowModifier.swift */; };
 		ACD61E5B2A87B34300E90946 /* TokyoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD61E5A2A87B34300E90946 /* TokyoApp.swift */; };
 		ACD61E5D2A87B34300E90946 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD61E5C2A87B34300E90946 /* ContentView.swift */; };
 		ACD61E5F2A87B34500E90946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD61E5E2A87B34500E90946 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC4D4C352A87C2C200607DCD /* ShadowModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowModifier.swift; sourceTree = "<group>"; };
 		ACD61E572A87B34300E90946 /* Tokyo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tokyo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD61E5A2A87B34300E90946 /* TokyoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokyoApp.swift; sourceTree = "<group>"; };
 		ACD61E5C2A87B34300E90946 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC4D4C332A87C29800607DCD /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				AC4D4C342A87C2A900607DCD /* Modifiers */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		AC4D4C342A87C2A900607DCD /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				AC4D4C352A87C2C200607DCD /* ShadowModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
 		ACD61E4E2A87B34300E90946 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +69,7 @@
 		ACD61E592A87B34300E90946 /* Tokyo */ = {
 			isa = PBXGroup;
 			children = (
+				AC4D4C332A87C29800607DCD /* Style */,
 				ACD61E5A2A87B34300E90946 /* TokyoApp.swift */,
 				ACD61E5C2A87B34300E90946 /* ContentView.swift */,
 				ACD61E5E2A87B34500E90946 /* Assets.xcassets */,
@@ -137,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC4D4C362A87C2C200607DCD /* ShadowModifier.swift in Sources */,
 				ACD61E5D2A87B34300E90946 /* ContentView.swift in Sources */,
 				ACD61E5B2A87B34300E90946 /* TokyoApp.swift in Sources */,
 			);
